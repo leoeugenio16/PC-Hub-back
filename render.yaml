@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: e-commerce-pc-hub
+    env: node
+    runtime:
+      version: '18'
+    build:
+      command: npm install --legacy-peer-deps && npm run build
+    start:
+      command: npm run start
