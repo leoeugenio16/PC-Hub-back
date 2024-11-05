@@ -10,7 +10,7 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi",
-    "strapi-build": "node_modules/.bin/strapi build"
+    "strapi-build": "node node_modules/strapi/bin/strapi.js build"
   },
   "dependencies": {
     "@mercadopago/sdk-react": "^0.0.19",
