@@ -1,5 +1,1 @@
-module.exports = {
-  ejemplo: function () {
-    // Código aquí
-  },
-};
+export default () => ({});
