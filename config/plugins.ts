@@ -1,11 +1,11 @@
 module.exports = {
-    upload: {
-      provider: 'cloudinary',
-      providerOptions: {
-        cloud_name: 'djm8mgfsr',  // Tu Cloud Name
-        api_key: '345458947453629',  // Tu API Key
-        api_secret: '190y4XswYmwtVDJpWZqJRO84Uew',  // Tu API Secret
-      },
+  // ...
+  upload: {
+    provider: 'cloudinary',
+    providerOptions: {
+      cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+      api_key: process.env.CLOUDINARY_API_KEY,
+      api_secret: process.env.CLOUDINARY_API_SECRET,
     },
-  };
-  
+  },
+};
